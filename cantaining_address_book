@@ -1,0 +1,17 @@
+package com.bridgelabz;
+
+import java.util.HashMap;
+
+public class cantaining_address_book {
+    static final String MY_ADDRESSBOOK = "my address book";
+
+    public static void main(String[] args) {
+
+        HashMap<String, AddressBook> addressBookMap = new HashMap<>();
+        AddressBook myAddressBook = new AddressBook();
+
+        addressBookMap.put(MY_ADDRESSBOOK,myAddressBook);
+
+    }
+
+}
